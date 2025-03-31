@@ -2,7 +2,6 @@ import chalk from 'chalk';
 
 let length = 7.6;
 let width = 3.24;
-
 let area = (length * width).toFixed(2);
 
 console.log("Length of the rectangle is: " + chalk.green(length));
