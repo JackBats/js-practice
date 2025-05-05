@@ -1,8 +1,7 @@
-function textInTime(text, time){
-    setTimeout(() => {
-        console.log(text);
-    }
-    , time);
+function textInTime(text, time) {
+	setTimeout(() => {
+		console.log(text);
+	}, time);
 }
 
 textInTime('Hello World!', 8000);
